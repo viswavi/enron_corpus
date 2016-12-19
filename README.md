@@ -7,7 +7,7 @@ email.parser
 
 # Description
 
-I used 3 SQL tables to represent the email data
+I used 2 SQL tables to represent the email data
 
 ## messages
 fileID         VARCHAR(20)
