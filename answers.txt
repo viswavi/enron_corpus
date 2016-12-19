@@ -1,0 +1,24 @@
+Recipients: Which 3 recipients received the largest number of direct emails (emails that have exactly one recipient), and how many did each receive?
+
+maureen.mcvicker@enron.com received 115 direct mails
+vkaminski@aol.com received 43 direct mails
+jeff.dasovich@enron.com received 25 direct mails
+
+
+Senders: Which 3 senders sent the largest number of broadcast emails (emails that have multiple recipients, including CCs and BCCs), and how many did each send?
+
+steven.kean@enron.com sent 184 broadcast mails
+john.shelk@enron.com sent 80 broadcast mails
+miyung.buster@enron.com sent 31 broadcast mails
+
+
+Response times: Find the 5 emails with the fastest response times. Please include file IDs, subject, sender, recipient, and response time. (For our purposes, a response is defined as a message from one of the recipients to the original sender whose subject line contains the subject of the original email as a substring, and the response time should be measured as the difference between when the original email was sent and when the response was sent.)
+
+
+response_id original_id subject responder original_sender response_time(hh:mm:ss)
+151121 139495 FW: Confidential - GSS Organization Value to ETS stanley.horton@enron.com rod.hayslett@enron.com 0:02:28
+228911 228996 RE: CONFIDENTIAL Personnel issue lizzette.palmer@enron.com michelle.cash@enron.com 0:03:56
+122926 122923 RE: Eeegads... jeff.dasovich@enron.com paul.kaufman@enron.com 0:04:00
+121748 121747 Re: CONFIDENTIAL - Residential in CA jeff.dasovich@enron.com karen.denne@enron.com 0:04:00
+200845 201878 FW: SRP SETTLEMENT PROPOSAL - PRIVILEGED AND CONFIDENTIAL FOR
+ SETTLEM	ENT DISCUSSIONS ONLY stephanie.miller@enron.com m..tholt@enron.com 0:04:22
