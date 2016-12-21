@@ -12,7 +12,8 @@ import os
 import re
 from dateutil import parser
 
-# example datestring: Mon, 18 Oct 1999 01:47:00 -0700 (PDT)
+# we are using two SQL tables (people and messages, defined above)
+# to do our analysis here
 
 def content_to_message_fields(content):
     msg = email.message_from_string(content)
@@ -122,10 +123,8 @@ def fastest_responses():
         print "{} {} {} {} {} {}".format(response_id, original_id, subject, responder,
         originator, response_time)
 
-#populate_tables()
-top_recipients_of_DMs()
-top_senders_of_broadcasts()
-fastest_responses()
-
-# largest number of emails
-# select recipient, COUNT(recipient) as c from people GROUP BY recipient ORDER BY c DESC;
+if __name__ == "__main__":
+    populate_tables()
+    top_recipients_of_DMs()
+    top_senders_of_broadcasts()
+    fastest_responses()
