@@ -1,5 +1,5 @@
 # enron_corpus
-Some exploratory machine learning of the Enron email corpus - for Slack Labs' coding challenge
+Some exploratory machine learning of the Enron email corpus - for a coding challenge
 
 # Dependencies
 mysql.connector for python
